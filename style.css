@@ -3,5 +3,68 @@
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background-color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+ul{
+	overflow:hidden;
+	align-content: center;
+
+}
+li{
+	display:inline-block;
+	padding-left: 10px;
+}
+
+#center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*h2 span {
+    background: plum;
+    padding: 0 10px;
+}*/
+
+button{
+	background-color: #d780ff;
+	border: #000000;
+	color: #000000;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 10px 26px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+body{
+	background-color: #f7e6ff;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+textarea {
+	padding: 7px;
+	-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+	-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+	box-shadow: inset 2px 2px 2px 0px #dddddd;
+}
+
+input {
+	padding: 7px;
+	-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+	-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+	box-shadow: inset 2px 2px 2px 0px #dddddd;
+}
+
+td {
+	width: 25% ;
+}
+
+
+/*table {
+    background-color:#d966ff;
+    background-size: cover;
+}*/
+
