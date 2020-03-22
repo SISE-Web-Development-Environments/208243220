@@ -22,6 +22,10 @@ li{
 	text-align: center;
 }
 
+#aboutme:first-letter {
+	font-size: xx-large;
+}
+
 /*h2 span {
     background: plum;
     padding: 0 10px;
