@@ -4,6 +4,9 @@
  <link rel="stylesheet" type="text/css" href="style.css" />
     <meta charset="UTF-8">
  <title>Shahar</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.js"> </script>
 </head>
 <body>
 <span style="color: purple;" >
@@ -349,6 +352,8 @@
     <br/>
     <br/>
     <h1><hr><div style="text-align: center;" >Contact Me</div></hr></h1>
+    <center>
+    <div class="form-popup">
     <form action="mailto:benshays@post.bgu.ac.il" method="post" enctype="text/plain">
         <p align="center">
             <label>
@@ -362,55 +367,10 @@
                 <input type="text" id="Email" placeholder="Email">
             </label>
         </p>
-        <p align="center">
-            <label>Message:</label>
-            <textarea style="resize: none;" name="Message" rows="8" cols="36" placeholder="Write Message Here"></textarea>
-        </p>
-        <p align="center">
-            <lable>Choose Emoji To Add:</lable>
-            <select style="height:25px" name="Emoji">
-                <option selected>
-                    <p>&#128540;</p>
-                </option>
-                <option>
-                    <p>&#128512;</p>
-                </option>
-                <option>
-                    <p>&#128512;</p>
-                </option>
-                <option>
-                    <p>&#128514;</p>
-                </option>
-                <option>
-                    <p>&#128517;</p>
-                </option>
-                <option>
-                    <p>&#128523;</p>
-                </option>
-                <option>
-                    <p>&#128524;</p>
-                </option>
-                <option>
-                    <p>&#128525;</p>
-                </option>
-                <option>
-                    <p>&#128526;</p>
-                </option>
-                <option>
-                    <p>&#128567;</p>
-                </option>
-                <option>
-                    <p>&#128564;</p>
-                </option>
-                <option>
-                    <p>&#128561;</p>
-                </option>
-                <option>
-                    <p>🥱</p>
-                </option>
+            <label>Message:
+                <textarea name="Message" rows="4" cols="36" placeholder="Write Message Here" id="mytextarea"></textarea>
+            </label>
 
-     </select>
-     </p>
      <p align="center">
             <button type="send">
                 <b>Send</b>
@@ -419,12 +379,14 @@
                 <b>Reset</b>
                 </button>
         </p>
+        <br><br>
     </form>
+        </div>
+        </center>
     <br/>
     <br/>
     <br/>
 </section>
-
 
 <script type="text/javascript">
     $(function(){
@@ -438,6 +400,11 @@
     $(document).scroll(function() {
      $('#menu').toggle($(this).scrollTop()>1000)
     });​
+</script>
+    <script>
+  $("#mytextarea").emojioneArea({
+      pickerPosition: 'right'
+  })
 </script>
 </span>
 </body>

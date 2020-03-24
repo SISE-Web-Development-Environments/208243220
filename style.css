@@ -70,9 +70,14 @@ td {
 	width: 25% ;
 }
 
+div.form-popup {
+	width: 700px
+}
+
 
 /*table {
-    background-color:#d966ff;
+    background-color:white;
     background-size: cover;
 }*/
 
+/*/
