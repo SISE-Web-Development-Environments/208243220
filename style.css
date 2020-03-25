@@ -34,11 +34,6 @@ h1 {
 	transform: scale(1.5);
 }
 
-/*h2 span {
-    background: plum;
-    padding: 0 10px;
-}*/
-
 button{
 	background-color: #d780ff;
 	border: #000000;
@@ -78,10 +73,3 @@ div.form-popup {
 	width: 700px
 }
 
-
-/*table {
-    background-color:white;
-    background-size: cover;
-}*/
-
-/*/
