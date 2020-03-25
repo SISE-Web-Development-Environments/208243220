@@ -30,6 +30,10 @@ h1 {
 	text-shadow: 2px 2px white;
 }
 
+#photos img:hover {
+	transform: scale(1.5);
+}
+
 /*h2 span {
     background: plum;
     padding: 0 10px;
