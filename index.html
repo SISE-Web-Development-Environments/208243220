@@ -286,7 +286,7 @@
     <h1><hr><div style="text-align: center;" >Contact Me</div></hr></h1>
     <center>
     <div class="form-popup">
-    <form action="mailto:benshays@post.bgu.ac.il" method="post" enctype="text/plain">
+    <form name="mailto" action="mailto:benshays@post.bgu.ac.il" method="get" enctype="text/plain">
         <p align="center">
             <label>
                 Full Name:
@@ -300,14 +300,14 @@
             </label>
         </p>
             <label>Message:
-                <textarea name="Message" rows="4" cols="36" placeholder="Write Message Here" id="mytextarea"></textarea>
+                <textarea name="body" rows="4" cols="36" placeholder="Write Message Here" id="mytextarea"></textarea>
             </label>
 
      <p align="center">
-            <button type="send">
+         <button type="submit">
                 <b>Send</b>
             </button>
-        </p>
+</p>
         <br><br>
     </form>
         </div>
@@ -335,6 +335,12 @@
       pickerPosition: 'right'
   })
 </script>
+<script type="text/javascript">
+  function add(str){
+      document.mailto.body.value +=str;
+  }
+ </script>
+    <script type="text/javascript"></script>
 </span>
 </body>
 </html>
